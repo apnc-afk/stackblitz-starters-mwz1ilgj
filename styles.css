@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8eaf2;
+  color: #4d2344;
+}
+
+
+
+
+#cabecalho {
+  background: linear-gradient(90deg, #542445, #8d527c);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+#cabecalho h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 40px;
+}
+
+#cabecalho p {
+  font-size: 18px;
+  margin: 10px;
+}
+
+#cabecalho ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+#cabecalho li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#cabecalho a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#cabecalho a:hover {
+  color: #ffd5e8;
+}
+
+
+
+.inicio {
+  background: linear-gradient(135deg, #f9dce9, #e4d5ef);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.inicio h2 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.inicio p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 15px auto;
+  line-height: 1.6;
+}
+
+
+h2 {
+  text-align: center;
+  color: #672853;
+  font-family: Georgia, serif;
+  margin-top: 45px;
+}
+
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 20px 30px 40px;
+}
+
+
+figure {
+  width: 190px;
+  margin: 0;
+  background-color: white;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(80, 30, 70, 0.15);
+  text-align: center;
+}
+
+figure:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(80, 30, 70, 0.25);
+}
+
+figure img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-size: 17px;
+  font-weight: bold;
+  color: #652653;
+  padding: 12px 5px 5px;
+}
+
+
+
+.mensagem {
+  background: linear-gradient(90deg, #e5cce1, #f5dbe8);
+  text-align: center;
+  padding: 35px 20px;
+  margin-top: 20px;
+}
+
+.mensagem h2 {
+  margin-top: 0;
+}
+
+.mensagem p {
+  font-size: 17px;
+}
+
+
+
+#rodape {
+  background-color: #45203b;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+#rodape p {
+  margin: 0;
+}
